@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 ARG branch=master
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y \
