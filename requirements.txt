@@ -1,3 +1,4 @@
 aiohttp==3.7.4
 aioredis==1.2.0
 uvloop==0.11.3
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
